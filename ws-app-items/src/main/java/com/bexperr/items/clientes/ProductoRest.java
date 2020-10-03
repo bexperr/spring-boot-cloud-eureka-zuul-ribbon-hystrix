@@ -7,10 +7,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import com.bexperr.commons.models.Producto;
 
 import java.util.List;
 
-import com.bexperr.items.models.*;
+
 //@FeignClient(name="ws-app-productos", url="localhost:8001")
 @FeignClient(name="ws-app-productos")
 public interface ProductoRest {

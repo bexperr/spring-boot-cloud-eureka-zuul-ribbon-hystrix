@@ -11,8 +11,8 @@ import org.springframework.stereotype.Service;
 
 import com.bexperr.items.clientes.ProductoRest;
 import com.bexperr.items.models.Item;
-import com.bexperr.items.models.Producto;
 import com.bexperr.items.service.IItemService;
+import com.bexperr.commons.models.Producto;
 
 @Service("serviceFeign")
 public class ItemServiceFeing implements IItemService{

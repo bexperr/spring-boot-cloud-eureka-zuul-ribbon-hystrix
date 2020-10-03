@@ -1,6 +1,7 @@
 package com.bexperr.productos.service;
 
-import com.bexperr.productos.models.Producto;
+//import com.bexperr.productos.models.Producto;
+import com.bexperr.commons.models.Producto;
 import java.util.List;
 
 public interface IProductoService {

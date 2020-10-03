@@ -17,7 +17,7 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.http.HttpEntity;
 
 import com.bexperr.items.models.Item;
-import com.bexperr.items.models.Producto;
+import com.bexperr.commons.models.Producto;
 import com.bexperr.items.service.IItemService;
 
 @Service("serviceRestTemplate")

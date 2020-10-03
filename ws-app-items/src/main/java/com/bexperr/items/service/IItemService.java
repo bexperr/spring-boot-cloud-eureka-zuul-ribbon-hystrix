@@ -1,7 +1,8 @@
 package com.bexperr.items.service;
 import java.util.List;
 
-import com.bexperr.items.models.*;
+import com.bexperr.items.models.Item;
+import com.bexperr.commons.models.Producto;
 
 public interface IItemService {
 	

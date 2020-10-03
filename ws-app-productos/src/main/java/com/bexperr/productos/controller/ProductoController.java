@@ -20,7 +20,8 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.bexperr.productos.service.IProductoService;
-import com.bexperr.productos.models.Producto;
+//import com.bexperr.productos.models.Producto;
+import com.bexperr.commons.models.Producto;
 
 @RestController
 public class ProductoController {

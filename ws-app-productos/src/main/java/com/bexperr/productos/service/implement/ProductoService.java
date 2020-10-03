@@ -7,7 +7,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.bexperr.productos.dao.ProductoDao;
-import com.bexperr.productos.models.Producto;
+//import com.bexperr.productos.models.Producto;
+import com.bexperr.commons.models.Producto;
 import com.bexperr.productos.service.IProductoService;
 
 @Service

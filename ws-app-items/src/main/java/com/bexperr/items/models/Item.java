@@ -1,5 +1,5 @@
 package com.bexperr.items.models;
-
+import com.bexperr.commons.models.Producto;
 public class Item {
 	
 	private Producto producto;

@@ -22,7 +22,8 @@ import com.bexperr.items.service.implement.ItemService;
 import com.bexperr.items.service.implement.ItemServiceFeing;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.bexperr.items.models.Item;
-import com.bexperr.items.models.Producto;
+//import com.bexperr.items.models.Producto;
+import com.bexperr.commons.models.Producto;
 
 import java.util.HashMap;
 import java.util.Map;
