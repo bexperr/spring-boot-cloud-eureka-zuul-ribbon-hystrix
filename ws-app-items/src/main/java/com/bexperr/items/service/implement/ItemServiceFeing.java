@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 
 import com.bexperr.items.clientes.ProductoRest;
 import com.bexperr.items.models.Item;
+import com.bexperr.items.models.Producto;
 import com.bexperr.items.service.IItemService;
 
 @Service("serviceFeign")
@@ -25,6 +26,24 @@ public class ItemServiceFeing implements IItemService{
 	@Override
 	public Item findById(Long id, Integer cantidad) {
 		return new Item(clienteFeign.detalle(id),cantidad);
+	}
+
+	@Override
+	public Producto save(Producto producto) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Producto update(Producto producto, Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void delete(Long id) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
