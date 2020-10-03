@@ -38,13 +38,13 @@ public class ItemController {
 	@Autowired
 	private Environment env;
 
-	@Autowired
-	@Qualifier("serviceRestTemplate")
-	private ItemService itemService;
-	
 //	@Autowired
-//	@Qualifier("serviceFeign")
-//	private ItemServiceFeing itemService;
+//	@Qualifier("serviceRestTemplate")
+//	private ItemService itemService;
+	
+	@Autowired
+	@Qualifier("serviceFeign")
+	private ItemServiceFeing itemService;
 	
 	@Value("${configuracion.texto}")
 	private String texto;
