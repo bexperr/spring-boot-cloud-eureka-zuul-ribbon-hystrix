@@ -1,10 +1,10 @@
-package com.bexperr.users;
+package com.bexperr.usuarios;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class WsAppUsersApplicationTests {
+class WsAppUsuariosApplicationTests {
 
 	@Test
 	void contextLoads() {

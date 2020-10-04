@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.bexperr</groupId>
-	<artifactId>ws-app-users</artifactId>
+	<artifactId>ws-app-usuarios</artifactId>
 	<version>1.0.1</version>
-	<name>ws-app-users</name>
+	<name>ws-app-usuarios</name>
 	<description>Servicio rest usando Spring boot</description>
 
 	<properties>
@@ -60,17 +60,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-rest</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-		</dependency>
-
-		<!-- DEPENDENCIA DEL PROYECTO COMMONS -->
-		<dependency>
-			<groupId>com.bexperr</groupId>
-			<artifactId>ws-app-commons</artifactId>
-			<version>1.0.1</version>
 		</dependency>
 	</dependencies>
 

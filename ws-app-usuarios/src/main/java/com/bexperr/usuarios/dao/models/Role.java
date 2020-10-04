@@ -1,4 +1,4 @@
-package com.bexperr.users.models;
+package com.bexperr.usuarios.dao.models;
 
 import java.io.Serializable;
 
@@ -9,13 +9,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import lombok.NoArgsConstructor;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-
-@NoArgsConstructor
-@AllArgsConstructor
-@Data
 @Entity
 @Table(name = "roles")
 public class Role implements Serializable {
@@ -29,9 +22,20 @@ public class Role implements Serializable {
 	@Column(unique = true, length = 30)
 	private String nombre;
 
+	public Long getId() {
+		return id;
+	}
 
-//	Se usa solo para matear de muchos a muchos bidireccional
-//	@ManyToMany(fetch = FetchType.LAZY, mappedBy = "roles")
-//	List<Usuario> usuarios;
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
 
 }

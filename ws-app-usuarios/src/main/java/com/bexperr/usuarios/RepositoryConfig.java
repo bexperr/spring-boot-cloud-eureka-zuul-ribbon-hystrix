@@ -1,11 +1,10 @@
-package com.bexperr.users;
+package com.bexperr.usuarios;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
 
-import com.bexperr.users.models.Role;
-import com.bexperr.users.models.Usuario;
+import com.bexperr.usuarios.dao.models.*;
 
 @Configuration
 public class RepositoryConfig implements RepositoryRestConfigurer{

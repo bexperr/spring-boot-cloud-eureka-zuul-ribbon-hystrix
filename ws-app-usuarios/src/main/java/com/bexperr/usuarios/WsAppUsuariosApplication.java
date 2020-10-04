@@ -1,14 +1,13 @@
-package com.bexperr.users;
+package com.bexperr.usuarios;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
-public class WsAppUsersApplication {
+public class WsAppUsuariosApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(WsAppUsersApplication.class, args);
+		SpringApplication.run(WsAppUsuariosApplication.class, args);
 	}
 
 }
