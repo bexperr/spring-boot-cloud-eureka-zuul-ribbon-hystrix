@@ -18,7 +18,7 @@ import com.bexperr.users.oauth.clients.UsuarioFeignClient;
 import com.bexperr.usuarios.commons.models.entity.Usuario;
 
 @Service
-public class UsuarioService implements UserDetailsService{
+public class UsuarioService implements IUsuarioService,UserDetailsService{
 	
 	
 	private static final Logger log = LoggerFactory.getLogger(UsuarioService.class);
@@ -47,6 +47,11 @@ public class UsuarioService implements UserDetailsService{
 		
 		return new User(usuario.getUsername(), usuario.getPassword(),usuario.getEnabled(),
 				true,true,true,authorities);
+	}
+
+	@Override
+	public Usuario findByUsername(String username) {
+		return client.findByUsername(username);
 	}
 
 }
