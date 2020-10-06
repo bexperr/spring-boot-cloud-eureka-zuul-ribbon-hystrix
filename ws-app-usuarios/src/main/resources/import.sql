@@ -1,5 +1,5 @@
-INSERT INTO usuarios (username, password, enabled, nombre, apellido, email) VALUES ('uli','$2a$10$ykhXmCAam5FUEF9GN.4Z8OwwWJidvMii6VFYe77cmS2X6oF6p4W86',true, 'Ulises', 'Perez','hola@bexperr.com');
-INSERT INTO usuarios (username, password, enabled, nombre, apellido, email) VALUES ('admin','$2a$10$qGyDfZLBB.SgLv7GCP3uZe3oM38fVtr58T1iZ1LNOvO61loNUAAaK',true, 'Jareny', 'Nogueron','hi@bexperr.com');
+INSERT INTO usuarios (username, password, enabled, nombre, apellido, email) VALUES ('uli','$2a$10$4Tq12kFewzFKS9p/kt2Rgu95xzsv38NtPbb8GoGBSJdxG8I0Z.1.a',true, 'Ulises', 'Perez','hola@bexperr.com');
+INSERT INTO usuarios (username, password, enabled, nombre, apellido, email) VALUES ('admin','$2a$10$Plauj572ljAbwrRVDUwvkO/4KW/IwNob5ciQrTOsvpRsTGiG.pCfu',true, 'Jareny', 'Nogueron','hi@bexperr.com');
 
 INSERT INTO roles (nombre) VALUES ('ROLE_USER');
 INSERT INTO roles (nombre) VALUES ('ROLE_ADMIN');
