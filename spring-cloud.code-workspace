@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "ms-eureka"
+		},
+		{
+			"path": "ms-products"
+		},
+		{
+			"path": "ms-items"
+		},
+		{
+			"path": "ms-gateway"
+		}
+	],
+	"settings": {
+		"java.compile.nullAnalysis.mode": "automatic",
+		"java.configuration.updateBuildConfiguration": "interactive"
+	}
+}
